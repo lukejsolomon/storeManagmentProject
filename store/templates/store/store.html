@@ -16,7 +16,7 @@
 		</div>
 		{% for product in products %}
 		<div class="col-lg-4">
-			<img class="thumbnail" src="{{product.imageURL}}">
+			<img style="height: 20rem; width: 17rem;" class="thumbnail" src="{{product.imageURL}}">
 			<div class="box-element product">
 				<h5><strong>{{product.name}}</strong></h5>
 				<p>Description:  {{product.description|truncatechars:100 }}</p>
